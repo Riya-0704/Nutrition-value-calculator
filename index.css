@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 .container{
-    width: 100%;
-    height: 100vh;
+    
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url('./img1.jpg');
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+    height: 750px;
+    
+    
 }
 .logo{
     display: flex;
@@ -38,7 +40,7 @@
     margin-left: 70px ;
     margin-top: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
 
 .menu li{
@@ -58,18 +60,174 @@
     color:#DEF9C4;
     padding:  0px 0px  0px  0px;
     font-size: 25px;
-    
 }
-.home{
-    height: 400px;
-    padding: 70px;
+
+.headline{
+    font-size: 30px;
+    color:#255a39;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+    margin: 5px;
 }
-.home h1.title-1{
-    color:aliceblue;
-    font-size: 40px;
+
+#about{
+    height:750px;
+    background-color: #ebf0f3;
+    padding:20px;
+    margin: 10px;
 }
-.home p{
-    color:aliceblue;
+
+.section{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    font-size: 22px;
+    font-weight:lighter;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 30px;
+    margin: 15px;
+}
+
+.left p{
+    padding: 20px;
+    margin:10px;
+}
+
+.right{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: 500px;
+  border-radius: 2px;
+}
+
+.nutrition-form h1{
+    font-size: 50px;
+    color:#255a39;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px;
+    margin: 5px;
+
+}
+
+#food-select{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nutrition-facts{
+
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.nutrition-form {
+    flex: 1;
+    margin: 20px;
+    height: 600px;
+}
+
+.section-1{
+    display: flex;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.nutrition-form h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nutrition-facts h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nutrition-form label {
+    display: block;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#2f774b;
+}
+
+.nutrition-form select,
+.nutrition-form button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
-    padding: 15px;
 }
+
+.nutrition-form button {
+    background-color: #1c7847;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nutrition-form button:hover {
+    background-color: #e5e8e5;
+    color:black;
+}
+
+.nutrition-facts {
+    flex: 1;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width:50%;
+    height:250px;
+    padding: 40px;
+    margin:20px;
+    padding-left: 50px;
+}
+
+.nutrition-facts h2 {
+    color:#1c7847;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.nutrition-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nutrition-facts ul li {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.section-2{
+  width: 50%;
+  height:auto;
+  padding:20px;
+  margin:10px;
+}
+
+.nutrition-facts{
+    width:50%;
+    height:250px;
+    padding: 40px;
+    margin:20px;
+    padding-left: 50px;
+}
+
