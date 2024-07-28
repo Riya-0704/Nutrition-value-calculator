@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition Calculator</title>
     <link rel="stylesheet" href="index.css">
-    
-    
+
+
 </head>
+
 <body>
     <div class="container">
         <div class="logo">
-            <h1 class="title">    
-            Health<span>Line</span></h1>
+            <h1 class="title">
+                Health<span>Line</span></h1>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -20,13 +22,73 @@
                 <li><a href="#">BMI Calculator</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </div>
+
+        <div class="text">
+            <pre class="bold">"Reach Your Health Goals With
+        Smart Nutrition Choice"</pre>
+        </div>
     </div>
 
-    <div class="text">
-        <pre class="bold">"Reach Your Health Goals With
-        Smart Nutrition Choice"</pre>
-       
-        
+
+    <!-- PAGE 2-->
+
+    <div id="about">
+        <div class="headline">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="section">
+            <div class="left">
+                <p>
+                    Nutrition is a critical part of health and development. Better nutrition is related to improved
+                    infant, child and maternal health, stronger immune systems, safer pregnancy and childbirth, lower
+                    risk of non-communicable diseases (such as diabetes and cardiovascular disease), and longevity.
+                    <br>
+                    <br>
+                    Healthy children learn better. People with adequate nutrition are more productive and can create
+                    opportunities to gradually break the cycles of poverty and hunger.
+                    <br>
+                    <br>
+                    The developmental, economic, social, and medical impacts of the global burden of malnutrition are
+                    serious and lasting for individuals and their families, for communities and for countries.
+                </p>
+            </div>
+
+            <div class="right">
+                <img src="./img2.jpg" alt="image2">
+            </div>
+        </div>
     </div>
+
+    <!-- PAGE 3-->
+    <div class="nutrition-form">
+        <h1>Food Nutrition Information</h1>
+        <div class="section-1">
+            <div class="section-2">
+            <label for="food-select">Select Food</label>
+            <select id="food-select">
+                <option value="">Select Food</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="orange">Other</option>
+            </select>
+            <button id="get-nutrition-btn">Get Nutrition</button>
+        </div>
+            <div class="nutrition-facts">
+                <h2>Nutrition Facts</h2>
+                <ul id="nutrition-details">
+                    <li>Calories: <span id="calories"></span></li>
+                    <li>Fat: <span id="fat"></span></li>
+                    <li>Total Carbohydrate: <span id="carbs"></span></li>
+                    <li>Protein: <span id="protein"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
