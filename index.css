@@ -50,9 +50,9 @@
 .menu li a{
     text-decoration: none;
     font-size: 22px;
-    margin-left: 25px;
+    margin-left: 22px;
     color: whitesmoke;
-    font-weight: 500;
+    font-weight: 550;
     border-radius: 2px;
     transition: 0.2s ease;
 }
@@ -75,7 +75,7 @@
     height:750px;
     background-color: #ebf0f3;
     padding:20px;
-    margin: 10px;
+
 }
 
 .section{
@@ -126,11 +126,6 @@ img{
     flex-wrap: wrap;
 }
 
-.nutrition-facts{
-
-    display: flex;
-    flex-wrap:wrap;
-}
 
 .nutrition-form {
     flex: 1;
@@ -140,8 +135,8 @@ img{
 
 .section-1{
     display: flex;
-    padding-top: 50px;
-    margin-top: 30px;
+    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .nutrition-form h2 {
@@ -150,27 +145,37 @@ img{
 }
 
 .nutrition-facts h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .nutrition-form label {
     display: block;
     margin: 5px;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
     padding-top: 10px;
     padding-left: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    
     color:#2f774b;
 }
 
-.nutrition-form select,
-.nutrition-form button {
+.nutrition-form select {
     display: block;
     width: 90%;
     padding: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.nutrition-form button{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    margin-top: 25px;
     font-size: 20px;
 }
 
@@ -189,45 +194,41 @@ img{
 
 .nutrition-facts {
     flex: 1;
-    max-width: 400px;
-    border: 1px solid #ddd;
+    max-width: 700px;
     border-radius: 5px;
-    background-color: #fff;
     width:50%;
-    height:250px;
-    padding: 40px;
-    margin:20px;
-    padding-left: 50px;
+    height:350px;
+    padding-top: 20px;
+    margin-top:20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: rgb(252, 251, 234);
+
 }
 
 .nutrition-facts h2 {
     color:#1c7847;
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
 .nutrition-facts ul {
     list-style: none;
-    padding: 0;
+    padding: 5px;
 }
 
 .nutrition-facts ul li {
-    margin-bottom: 10px;
-    font-size: 26px;
+    margin: 15px;
+    font-size: 30px;
 }
 
 .section-2{
   width: 50%;
-  height:auto;
+  height:350px;
   padding:20px;
-  margin:10px;
-}
+  margin:20px;
+  margin-right: 0px;
+  padding-right: 0px;
+  background-color: rgb(241, 239, 196);
 
-.nutrition-facts{
-    width:50%;
-    height:250px;
-    padding: 40px;
-    margin:20px;
-    padding-left: 50px;
 }
-
