@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition Calculator</title>
     <link rel="stylesheet" href="index.css">
-
-
+    <script src="https://kit.fontawesome.com/2978c4f1b6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,16 +22,14 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-
         <div class="text">
             <pre class="bold">"Reach Your Health Goals With
         Smart Nutrition Choice"</pre>
         </div>
     </div>
-
+    <hr>
 
     <!-- PAGE 2-->
-
     <div id="about">
         <div class="headline">
             <h1>ABOUT</h1>
@@ -53,28 +50,28 @@
                     serious and lasting for individuals and their families, for communities and for countries.
                 </p>
             </div>
-
             <div class="right">
                 <img src="./img2.jpg" alt="image2">
             </div>
         </div>
     </div>
+    <hr>
 
     <!-- PAGE 3-->
     <div class="nutrition-form">
         <h1>Food Nutrition Information</h1>
         <div class="section-1">
             <div class="section-2">
-            <label for="food-select">Select Food</label>
-            <select id="food-select">
-                <option value="">Select Food</option>
-                <option value="apple">Apple</option>
-                <option value="banana">Banana</option>
-                <option value="orange">Orange</option>
-                <option value="orange">Other</option>
-            </select>
-            <button id="get-nutrition-btn">Get Nutrition</button>
-        </div>
+                <label for="food-select">Select Food</label>
+                <select id="food-select">
+                    <option value="">Select Food</option>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="orange">Other</option>
+                </select>
+                <button id="get-nutrition-btn">Get Nutrition</button>
+            </div>
             <div class="nutrition-facts">
                 <h2>Nutrition Facts</h2>
                 <ul id="nutrition-details">
@@ -86,9 +83,68 @@
             </div>
         </div>
     </div>
+    <hr>
+
+    <!--Page 4-->
+    <div class="bmi-full-section">
+        <div class="headline">
+            <h2>BMI Calculator</h2>
+        </div>
+        <div class="bmi-section">
+            <div>
+                <label>Age:</label>
+                <input type="number" id="age" />
+            </div>
+            <div>
+                <label>Weight (kg):</label>
+                <input type="number" id="weight" />
+            </div>
+            <div>
+                <label>Height (cm):</label>
+                <input type="number" id="height" />
+            </div>
+            <div id="bmiCalculate">
+                <button id="result-button" onclick="calculateBMI()">Calculate
+                    BMI</button>
+            </div>
+        </div>
+        <div class="result" id="result">
+        </div>
+    </div>
+    <hr>
+
+    <!-- Page 5 -contact us page -->
+    <div id="contact">
+        <div class="container1">
+            <h1 class="headline">Ask Your Doubt </h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-map-marker-alt"></i> 1234, Street, Landmark, Country</p>
+                    <p><i class="far fa-envelope"></i> healthLine@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i> +91-6785249324</p>
+                    <p><i class="fas fa-clock"></i> Mon - Fri 8:00 AM to 5:00 PM</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn1 btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © All rights reserved </p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

@@ -1,53 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url('./img1.jpg');
+
+body {
+    background-color: #EBF0F3;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('./img1.jpg');
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 751px;
-    
-    
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 70px;
-      
 }
-.title{
+
+.title {
     color: rgb(22, 61, 13);
     font-size: 27px;
 }
 
-.logo.title{
-  color: whitesmoke;
-  font-size: 67px;
-  font-family: 700;
-  cursor: pointer;
+.logo.title {
+    color: whitesmoke;
+    font-size: 67px;
+    font-family: 700;
+    cursor: pointer;
 }
-.bold{
-    color:#255a39;
+
+.bold {
+    color: #255a39;
     font-size: 30px;
     font-weight: bold;
     padding-top: 220px;
     padding-left: 40px;
-    margin-left: 70px ;
+    margin-left: 70px;
     margin-top: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
-.menu li{
+.menu li {
     list-style: none;
     display: inline-block;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     font-size: 22px;
     margin-left: 22px;
@@ -56,84 +60,86 @@
     border-radius: 2px;
     transition: 0.2s ease;
 }
-.menu li a:hover{
-    color:#DEF9C4;
-    padding:  0px 0px  0px  0px;
+
+.menu li a:hover {
+    color: #DEF9C4;
+    padding: 0px 0px 0px 0px;
     font-size: 25px;
 }
 
-.headline{
+.headline {
     font-size: 30px;
-    color:#255a39;
+    color: #255a39;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:5px;
+    padding: 5px;
     margin: 5px;
 }
 
-#about{
-    height:750px;
+#about {
+    height: 750px;
     background-color: #ebf0f3;
-    padding:20px;
-
+    padding: 20px;
 }
 
-.section{
+.section {
     display: flex;
 }
 
-.left{
+.left {
     display: flex;
     font-size: 22px;
-    font-weight:lighter;
+    font-weight: lighter;
     flex-wrap: wrap;
     width: 50%;
     padding: 30px;
     margin: 15px;
 }
 
-.left p{
+.left p {
     padding: 20px;
-    margin:10px;
+    margin: 10px;
 }
 
-.right{
+.right {
     width: 50%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
 }
 
-img{
-  max-width: 100%;
-  height: 500px;
-  border-radius: 2px;
+img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 2px;
 }
 
-.nutrition-form h1{
+.nutrition-form h1 {
     font-size: 50px;
-    color:#255a39;
+    color: #255a39;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:5px;
+    padding: 5px;
     margin: 5px;
-
 }
 
-#food-select{
-    display:flex;
+#food-select {
+    display: flex;
     flex-wrap: wrap;
 }
 
+hr {
+    color: black;
+}
 
 .nutrition-form {
     flex: 1;
-    margin: 20px;
-    height: 600px;
+    height: 530px;
+    background-color: #EBF0F3;
 }
 
-.section-1{
+.section-1 {
     display: flex;
     padding-top: 20px;
     margin-top: 10px;
@@ -157,8 +163,7 @@ img{
     font-weight: 800;
     padding-top: 10px;
     padding-left: 10px;
-    
-    color:#2f774b;
+    color: #2f774b;
 }
 
 .nutrition-form select {
@@ -169,7 +174,7 @@ img{
     font-size: 20px;
 }
 
-.nutrition-form button{
+.nutrition-form button {
     display: block;
     width: 50%;
     padding: 10px;
@@ -189,25 +194,24 @@ img{
 
 .nutrition-form button:hover {
     background-color: #e5e8e5;
-    color:black;
+    color: black;
 }
 
 .nutrition-facts {
     flex: 1;
     max-width: 700px;
     border-radius: 5px;
-    width:50%;
-    height:350px;
+    width: 50%;
+    height: 350px;
     padding-top: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     padding-left: 0px;
     margin-left: 0px;
     background-color: rgb(252, 251, 234);
-
 }
 
 .nutrition-facts h2 {
-    color:#1c7847;
+    color: #1c7847;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -222,13 +226,198 @@ img{
     font-size: 30px;
 }
 
-.section-2{
-  width: 50%;
-  height:350px;
-  padding:20px;
-  margin:20px;
-  margin-right: 0px;
-  padding-right: 0px;
-  background-color: rgb(241, 239, 196);
+.section-2 {
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: rgb(241, 239, 196);
+}
 
+.bmi-full-section {
+    max-width: 100%;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.headline h2 {
+    text-align: center;
+}
+
+.bmi-section {
+    margin: 20px;
+    padding: 20px;
+    height: 350px;
+    background-color: rgb(250, 249, 241);
+    border: 1px solid #ccc;
+}
+
+.bmi-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.bmi-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.result {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+input {
+    color: black;
+}
+
+#bmiCalculate {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#result-button {
+    background-color: #1c7847;
+    color: white;
+    width: 300px;
+    height: 42px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container1 h1 {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    color: #1c7847;
+}
+
+.row {
+    display: flex;
+}
+
+.row .contact-left {
+    flex-basis: 35%;
+    margin-left: 40px;
+}
+
+.row .contact-right {
+    flex-basis: 60%;
+}
+
+.row .contact-left p {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contact-left p i {
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.social-icons {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 10px;
+    color: #201e1e;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a :hover {
+    color: #1c7847;
+    font-size: 38px;
+    transform: translate(-6px);
+}
+
+.btn1 {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background: crimson;
+    border: 1px solid black;
+    box-shadow: 5px 3px 7px solid black;
+}
+
+.btn2 {
+    display: inline-block;
+    background: #1c7847;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn2:hover {
+    background-color: #e5e8e5;
+    color: black;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #c9c7c7;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: rgb(248, 244, 244);
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+    background: #262626;
+    font-weight: 600;
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        width: 100%;
+    }
 }
